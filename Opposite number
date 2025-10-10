@@ -1,0 +1,6 @@
+SELECT 
+  CASE 
+    WHEN number < 0  THEN ABS(number)
+    ELSE -ABS(number)
+  END AS res
+FROM opposite

@@ -1,0 +1,6 @@
+SELECT str, 
+(
+REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(str,'u',''),'o',''),'i',''),'e',''),'a','')
+,'A',''),'E',''),'I',''),'O',''),'U','')
+) as res
+FROM disemvowel

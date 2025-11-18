@@ -3,4 +3,4 @@ CASE
 WHEN bool = 'True' THEN 'Yes'
 WHEN bool = 'False' THEN 'No'
 END AS res
-FROM booltoword
+FROM booltoword 
